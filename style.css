@@ -1,0 +1,131 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat';
+  margin-top: 40px;
+}
+
+.navbar {
+  padding: 5 6rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+}
+
+h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+/* Welcome Page */
+#welcome {
+  min-height: 100vh;
+  color: white;
+  background-image: url("images/welcome.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+#welcome h1 {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+hr {
+  border-top: 2px solid red;
+  width: 30%;
+}
+
+.section-line {
+  border-top: 1px solid red;
+  width: 20%;
+}
+
+.welcome {
+  padding: 16rem 5rem;
+  text-align: center;
+}
+
+.contaniner-fluid {
+  padding: 6%;
+}
+
+/* about section */
+.about {
+  text-align: center;
+}
+
+.head-img {
+  width: 200px;
+  border-radius: 100%;
+  display: block;
+  padding-bottom: 2rem;
+  margin: auto;
+}
+
+.about-button {
+  margin: 50px auto;
+  width: 150px;
+  display: block;
+}
+
+.about-button:hover {
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+  width: 200px;
+  transition: 0.5s;
+}
+
+.about-text {
+  text-align: justify;
+  text-justify:newspaper;
+}
+
+
+/* education section */
+ul {
+  line-height: 190%;
+  margin: 20px;
+}
+
+#education {
+  text-align: center;
+  padding: auto;
+  background-color: #dddddd;
+}
+
+.edu-logo {
+  max-width: 300px;
+  height: auto;
+  width: auto;
+  margin-bottom: 3rem;
+}
+
+.edu-logo:hover {
+  max-width: 350px;
+  transition: 0.5s;
+}
+
+.education-row {
+  padding-top: 60px;
+}
+
+.card {
+  background-color: #dddddd;
+  border-width: 0;
+}
+
+.section-row {
+  padding-top: 60px;
+  padding-bottom: 30px;
+
+}
