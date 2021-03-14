@@ -80,7 +80,7 @@ hr {
 
 .about-button:hover {
   letter-spacing: 6px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   width: 200px;
   transition: 0.5s;
 }
@@ -171,10 +171,19 @@ ul {
 }
 
 #certification {
-  background-color: #374045;
-  color: #ffffff;
+  background-color: #cecece;
+  color: #000000;
   text-align: center;
 }
+
+.cert-section {
+  margin-bottom: 50px;
+}
+
+.cert_img {
+  height: 300px;
+}
+
 
 #certification .card-body {
   color: #000000;
